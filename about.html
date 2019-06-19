@@ -5,24 +5,28 @@
   <meta name="Description" content="INF 7420 Project">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Melanie Carroll - Portfolio </title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-  <nav>
+  <nav class="main-menu">
     <ul>
       <li> <a href="index.html">Home</a> </li>
       <li> <a href="about.html">About</a> </li>
-      <li> <a href="samples.html">Samples</a> </li>
+      <li> <div class="dropdown"> <a href="samples.html">Samples</a> 
+        <div class="dropdown-content">
+          <p>Sample file</p>
+        </div></div></li>
       <li> <a href="contact.html">Contact</a> </li>
     </ul>
   </nav>
-  <h1>About</h1>
+  <h1 id="title-index">About</h1>
 </header>
 <hr />
  <main>
      <div> <img src="images/Sunflower2.jpg" alt="Grasshopper on a sunflower"></div>
  <p>Information regarding a biography will go on this page</p>
     </main>
-<footer> &copy;2019 Melanie Carroll</footer>
+<footer class="footer"> &copy;2019 Melanie Carroll</footer>
 </body>
 </html>
