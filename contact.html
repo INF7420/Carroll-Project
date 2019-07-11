@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="Description" content="INF 7420 Project">
@@ -7,45 +8,55 @@
   <title>Melanie Carroll - Portfolio </title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<header>
-    <h1 id="title-index">Contact</h1>
-  <nav class="main-menu">
-    <ul>
-      <li> <a href="index.html">Home</a> </li>
-      <li> <div class="dropdown"><a href="about.html">About</a>
-        <div class="dropdown-content"><a href="files/Resume.pdf">Resume</a>
-        </div></div></li>
-      <li> <div class="dropdown"> <a href="samples.html">Samples</a> 
-        <div class="dropdown-content">
-          <a href="samplefile.html">Sample file</a>
-        </div></div></li>
-      <li> <a href="contact.html">Contact</a> </li>
-    </ul>
-  </nav>
- 
-</header>
 
-  <main>
-    <form action="https://formspree.io/gr1583@wayne.edu" method="POST" class="validate">
-      
-      <div>
-      <label for="name">Name</label>
-      <input id="name" type="text" name="name" class="form-input"></div>
-    
-      <div>
-      <label for="email">Email</label>
-      <input id="email" type="email" name="_replyto" class="form-input" required></div>
-      
-      <div>
-      <label for="message">Message</label>
-      <textarea id="message" name="message" class="form-input" rows="4" required></textarea></div>
-       
-      <div>
-      <input type="submit" value="Send"></div>
-    </form>
-</main>
-<footer class="footer"> &copy;2019 Melanie Carroll</footer>
-<script src="script.js"></script>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1 id="title-index">Contact</h1>
+      <nav class="main-menu">
+        <ul>
+          <li> <a href="index.html">Home</a> </li>
+          <li>
+            <div class="dropdown"><a href="about.html">About</a>
+              <div class="dropdown-content"><a href="files/Resume.pdf">Resume</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown"> <a href="samples.html">Samples</a>
+              <div class="dropdown-content">
+                <a href="samplefile.html">Sample file</a>
+              </div>
+            </div>
+          </li>
+          <li> <a href="contact.html">Contact</a> </li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <main>
+      <form action="https://formspree.io/gr1583@wayne.edu" method="POST" class="validate">
+
+        <div>
+          <label for="name">Name</label>
+          <input id="name" type="text" name="name" class="form-input"></div>
+
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="email" name="_replyto" class="form-input" required></div>
+
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" class="form-input" rows="4" required></textarea></div>
+
+        <div>
+          <input type="submit" value="Send"></div>
+      </form>
+    </main>
+  </div>
+  <footer class="footer"> &copy;2019 Melanie Carroll</footer>
+  <script src="script.js"></script>
 </body>
+
 </html>
