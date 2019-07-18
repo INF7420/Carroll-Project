@@ -8,6 +8,7 @@ body {
   background-color: #fdfdfd;
   color: #000033;
   font-family: Arial, Helvetica, sans-serif;
+  font-variant: small-caps;
 }
 
 a {
@@ -16,6 +17,7 @@ a {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 .wrapper {
@@ -24,7 +26,7 @@ img {
 
 .main-menu {
   margin: 0;
-  padding: 0;
+  padding: 1rem;
   overflow: hidden;
   background-color: #333333;
 }
@@ -49,12 +51,6 @@ img {
   background-color: #111111;
 }
 
-#title-index {
-  text-align: center;
-  font-size: 30pt;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 3em;
-}
 
 main {
   padding-top: 2rem;
@@ -65,26 +61,54 @@ main {
   margin: 0 auto;
 }
 
+#title-index {
+  text-align: center;
+  font-size: 30pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 2em;
+}
+
+#contact {
+  text-align: center;
+  font-size: 15pt;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  line-height: 2em;
+  padding-top: 4em;
+  font-variant: small-caps;
+}
+
 .featured-image-container {
-  display: inline-block;
-  position: relative;
-  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 
 .featured-image-container img {
   max-height: 70vh;
+  border-radius: 8px;
 }
 
-.featured-text-container {
-  float: left;
-  width: 50%;
-  padding: 2rem;
-  max-width: 500px;
+.section-index {
+  text-align: center;
+  padding-top: 1em;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .featured-text-container h1 {
   margin: 0.5rem 0 1rem;
   font-size: 1.4rem;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.featured-text-container p {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 1.2rem;
+  margin: 0.5rem 0 1.5rem;
+}
+
+#section-title {
+  font-variant: small-caps;
 }
 
 footer {
@@ -100,11 +124,20 @@ footer {
   color: white;
 }
 
+.social-media ul {
+  list-style-type: none;
+}
+
+.social-media a {
+  padding: 1rem;
+}
+
 .dropdown {
   display: inline-block;
 }
 
 .dropdown-content {
+  width: 15%;
   display: none;
   position: absolute;
   background-color: #333333;
@@ -121,11 +154,6 @@ footer {
 
 .dropdown-content a:hover {
   background-color: #111111;
-}
-
-p.about-one {
-  border: 3px groove #111111;
-  padding: 10px;
 }
 
 label {
@@ -188,6 +216,8 @@ form {
   margin: 3em auto;
 }
 
+
+
 @media screen and (min-width: 768px) {
   header,
   footer {
@@ -237,3 +267,54 @@ form {
     opacity: 1;
   }
 }
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 3px solid #333333;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  background-color: #333333;
+  color: #fdfdfd;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: flex;
+  width: 24.99999%;
+}
+
+.documentlist ul{
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+
+
