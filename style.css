@@ -271,10 +271,10 @@ form {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-}
-
-.gallery {
-  width:25%;
+  }
+  .gallery {
+    width: 25%;
+  }
 }
 
 div.gallery {
