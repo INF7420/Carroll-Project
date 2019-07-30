@@ -52,7 +52,7 @@ img {
 }
 
 @media (min-width: 600px) {
-  .main-menu a{
+  .main-menu a {
     display: inline-block;
   }
 }
@@ -89,8 +89,8 @@ main {
   width: 90%;
 }
 
-.featured-image-container img {
-  max-height: 70vh;
+.featured-image-container img{
+  max-height: 100vh;
   border-radius: 8px;
 }
 
@@ -104,16 +104,24 @@ main {
   margin: 0.5rem 0 1rem;
   font-size: 1.4rem;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: center;
 }
 
 .featured-text-container p {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-size: 1.2rem;
+  font-size: 10pt;
+  text-align: right;
   margin: 0.5rem 0 1.5rem;
 }
 
 #section-title {
   font-variant: small-caps;
+}
+
+.section-sample {
+  text-align: center;
+  padding-top: 1em;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 footer {
@@ -226,7 +234,8 @@ form {
   header,
   footer {
     clear: both;
-  } }
+  }}
+
 
   main {
     padding-top: 2rem;
@@ -272,17 +281,18 @@ form {
     flex-wrap: wrap;
     flex-direction: row;
   }
+
   .gallery {
     width: 25%;
   }
-}
+
 
 div.gallery {
-  border: 1px solid #ccc;
+  border: 2px solid #333333;
 }
 
 div.gallery:hover {
-  border: 1px solid #333333;
+  border: 2px solid #fdfdfd;
 }
 
 div.gallery img {
@@ -306,6 +316,7 @@ div.desc {
 
 .documentlist ul{
   list-style-type: none;
+  text-align: right;
 }
 
 @media only screen and (max-width: 700px) {
