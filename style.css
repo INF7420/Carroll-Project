@@ -175,6 +175,7 @@ label {
   margin-bottom: 0.5em;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .form-input {
   border: 2px solid #cccccc;
   border-radius: 4px;
@@ -235,6 +236,7 @@ form {
     clear: both;
   }}
 
+
   main {
     padding-top: 2rem;
     display: flex;
@@ -262,11 +264,7 @@ form {
     padding: 10px 14px;
   }
 
-  .menu-icon {
-    display: none;
-  }
-
-  .site-name {
+   .site-name {
     flex: 1 0 auto;
   }
 
@@ -278,7 +276,7 @@ form {
     opacity: 1;
   }
 
-  .responsive-gallery {
+.responsive-gallery {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -299,7 +297,6 @@ div.gallery:hover {
 
 div.gallery img {
   width: 100%;
-  /* height: auto; */
   height: 175px;
   object-fit: cover;
 }
@@ -334,6 +331,3 @@ div.desc {
     width: 100%;
   }
 }
-
-
-
